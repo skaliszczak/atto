@@ -15,7 +15,7 @@ class Controller {
 	public $vars = array();
 
 	/**
-	 * Proces view with vars and returns output. 
+	 * Process view with vars and returns output. 
 	 * Output is NOT added to contents property.
 	 * @param string $name
 	 * @param string $viewsDirectory [optional]
@@ -24,7 +24,7 @@ class Controller {
 	 */
 	public function view($name, $viewsDirectory = null, $vars = null) {
 		
-		
+
 		$bufferingStarted = false;
 		$bufferingStoped = false;
 		

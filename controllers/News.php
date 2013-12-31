@@ -13,4 +13,8 @@ class News extends Controller{
 		$this->vars['title'] = 'MyTitle';
 		return $this->view('article');
 	}
+	function index() {
+		
+		return $this->view('index');
+	}	
 }
